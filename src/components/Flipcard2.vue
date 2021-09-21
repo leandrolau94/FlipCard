@@ -15,19 +15,19 @@
                     <p>COMPANY CONTACT<br>INFORMATION</p>
                 </div>
                 <div class="company_email">
-                    <img src="./icons8_send_email_30px.png" alt="email">
+                    <img src="./icons8_send_email_30px.png" alt="">
                     <p>webtrully@gmail.com</p>
                 </div>
                 <div class="company_phone">
-                    <img src="./icons8_phone_30px.png" alt="phone">
+                    <img src="./icons8_phone_30px.png" alt="">
                     <p>(+53) 5497-7890<br>(+53) 5389-9692</p>
                 </div>
                 <div class="home">
-                    <img src="./icons8_home_page_24px.png" alt="home">
+                    <img src="./icons8_home_page_24px.png" alt="">
                     <p>Vedado, Habana, Cuba</p>
                 </div>
                 <div class="company_web">
-                    <img src="./icons8_globe_32px.png" alt="website">
+                    <img src="./icons8_globe_32px.png" alt="">
                     <a href="#" target="_blank">www.webtrully/ldla-94.design</a>
                 </div>
             </div>
@@ -129,12 +129,12 @@ export default {
     color: #355c7d;
 }
 .company_email > p {
-    margin-right: 35px;
+    margin-right: 27px;
 }
 .company_phone > p {
     margin-right: 60px;
 }
 .home > p {
-    margin-right: 26px;
+    margin-right: 24px;
 }
 </style>

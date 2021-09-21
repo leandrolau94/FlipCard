@@ -18,6 +18,11 @@
         <Flipcard2 id="flip8" />
         <Flipcard2 id="flip9" />
       </footer>
+      <footer id="footer3">
+        <Flipcard3 id="flip10" />
+        <Flipcard3 id="flip11" />
+        <Flipcard3 id="flip12" />
+      </footer>
     </div>
   </div>
 </template>
@@ -25,13 +30,15 @@
 <script>
 import FlipCard from './components/Flipcard.vue';
 import FlipCard1 from './components/FlipCard1.vue';
-import Flipcard2 from './components/Flipcard2.vue'
+import Flipcard2 from './components/Flipcard2.vue';
+import Flipcard3 from './components/Flipcard3.vue';
 export default {
   name: 'App',
   components: {
     FlipCard,
     FlipCard1,
-    Flipcard2
+    Flipcard2,
+    Flipcard3
   }
 };
 </script>
@@ -53,7 +60,7 @@ export default {
   display: block;
   float: left;
 }
-#footer, #footer1, #footer2 {
+#footer, #footer1, #footer2, #footer3 {
   border: none;
   display: block;
   float: left;
@@ -61,7 +68,7 @@ export default {
   height: auto;
   margin: 0% 4%;
 }
-#flip1, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9 {
+#flip1, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9, #flip10, #flip11, #flip12 {
   display: block;
   float: left;
   margin: 0% 8% 0% 8%;
