@@ -1,6 +1,6 @@
 # flipcard
 
-> 3d flipping card effect
+> A Vue.js project
 
 ## Build Setup
 

@@ -51,22 +51,22 @@
 import myImage from '../assets/pp.jpg';
 
 export default {
-    name: 'FlipCard',
-    props: {
-        data: String,
-        msg: String
+  name: 'FlipCard',
+  props: {
+    data: String,
+    msg: String,
+  },
+  data() {
+    return {
+      myImage,
+    };
+  },
+  methods: {
+    flip() {
+      document.getElementById(this.msg).classList.toggle('is__flipped');
     },
-    data(){
-        return {
-            myImage
-        }
-    },
-    methods: {
-        flip() {
-            document.getElementById(this.msg).classList.toggle("is__flipped");
-        }
-    }
-}
+  },
+};
 </script>
 
 <style>

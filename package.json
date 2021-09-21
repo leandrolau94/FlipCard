@@ -1,7 +1,7 @@
 {
   "name": "flipcard",
   "version": "1.0.0",
-  "description": "3d flipping card effect",
+  "description": "A Vue.js project",
   "author": "Leandro Lau <leandro@icimaf.cu>",
   "private": true,
   "scripts": {

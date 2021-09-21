@@ -19,17 +19,17 @@
 
 <script>
 export default {
-    name: 'FlipCard1',
-    props: {
-        data1: String,
-        msg1: String
-    },
-    data1(){
-        return {
-            miaImagine
-        }
-    }
-}
+  name: 'FlipCard1',
+  props: {
+    data1: String,
+    msg1: String,
+  },
+  data1() {
+    return {
+      miaImagine,
+    };
+  },
+};
 </script>
 
 <style>
